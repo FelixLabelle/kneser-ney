@@ -3,7 +3,6 @@ import random
 from collections import Counter, defaultdict
 
 class KneserNeyLM:
-
     def __init__(self, highest_order, ngrams, start_pad_symbol='<s>',
             end_pad_symbol='</s>'):
         """
